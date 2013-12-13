@@ -57,7 +57,7 @@
     
     NSMutableArray *pins = [NSMutableArray array];
     
-    for(int i=0;i<50;i++) {
+    for(int i=0;i<500;i++) {
         CGFloat latDelta = rand()*0.125/RAND_MAX - 0.02;
         CGFloat lonDelta = rand()*0.130/RAND_MAX - 0.08;
         
